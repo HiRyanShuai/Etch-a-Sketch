@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#page{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 960px;
+    height: 960px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
