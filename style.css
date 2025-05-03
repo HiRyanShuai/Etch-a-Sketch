@@ -2,17 +2,19 @@ body{
     margin: 0;
     padding: 0;
 }
+
 #page{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
+
 #container{
-    width: 960px;
-    height: 960px;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,7 +22,7 @@ body{
 .block{
     margin: 0;
     padding: 0;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     box-sizing: border-box;
 }
