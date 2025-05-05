@@ -55,7 +55,6 @@ clear.addEventListener("click", (e) => {
 });
 
 set.addEventListener("click", (e)=>{
-    //let length = 0;
     do{
         sideNumber = Math.floor(Number(prompt("Please input the number of squares per side [1~100]:")));
     } while(sideNumber < 1 || sideNumber > 100 || isNaN(sideNumber));

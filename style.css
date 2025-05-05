@@ -1,10 +1,10 @@
-body{
+body, #page{
     margin: 0;
     padding: 0;
 }
 
 #page{
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     align-items: center;
     justify-content: center;
